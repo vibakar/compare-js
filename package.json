@@ -1,0 +1,31 @@
+{
+  "name": "compare-strings",
+  "version": "1.0.0",
+  "description": "An algorithm implementation to find the similarity between two sentences based on word count.",
+  "main": "src/compare.js",
+  "scripts": {
+    "test": "mocha",
+    "start": "node main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vibakar/compare-js.git"
+  },
+  "keywords": [
+    "comparision",
+    "matching words",
+    "word count"
+  ],
+  "author": "vibakar",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/vibakar/compare-js/issues"
+  },
+  "homepage": "https://github.com/vibakar/compare-js#readme",
+  "dependencies": {
+    "log4js": "^1.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
+}
