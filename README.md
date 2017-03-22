@@ -4,10 +4,11 @@
 
 ## INSTALL: ##
 
-  $ npm install compare-strings
+  `$ npm install compare-strings`
 
 ## USAGE ##
 
+``` javascript
 let logger = require('log4js').getLogger();
 
 let Compare = require('../src/compare');
@@ -19,3 +20,4 @@ let sentence2 = 'how to create an object Array in Javascript';
 wordCount = Compare(sentence1, sentence2);
 // wordCount will be 6
 logger.debug('word count :'+wordCount);
+```
