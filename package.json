@@ -1,6 +1,6 @@
 {
   "name": "compare-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An algorithm implementation to find the similarity between two sentences based on word count.",
   "main": "src/compare.js",
   "scripts": {
